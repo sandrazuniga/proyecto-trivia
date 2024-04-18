@@ -1,0 +1,55 @@
+body {
+    background-image: url("../img/istockphoto-1342709644-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.formularioCategoria {
+    display: flex;
+    gap: 50px;
+}
+
+.botonCategoria {
+    height: 124px;
+    color: #ffffff;
+    padding: 5px 44px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 5px;
+    border-color: #ffffff91;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 1px;
+}
+
+
+.botonCategoria:hover {
+    background-color: rgba(137, 43, 226, 0.505);
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+}
+
+.botonCultura {
+    background-color: rgba(23, 2, 255, 0.150);
+}
+
+
+.botonPelicula {
+    background-color: rgba(23, 2, 255, 0.150);
+}
+
+
+.contenedorCategoria {
+    position:relative
+}

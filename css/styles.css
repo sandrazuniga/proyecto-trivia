@@ -1,0 +1,142 @@
+@import url("./preguntas.css");
+@import url("./categoria.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
+
+.nameLabel {
+    color: white;
+}
+
+.contenedorTitulos,
+.contenedorTitulos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    font-size: 26px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nombreContenedor {
+    display: flex;
+    justify-content: space-around;
+    gap: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.formularioInicio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+main form label {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.campoNombre {
+    background-color: rgba(211, 211, 211, 0.237);
+    border: none;
+    width: 35%;
+    height: 35px;
+    padding: 10px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.boton {
+    background-color: #30169888;
+    border: none;
+    color: white;
+    padding: 5px 44px;
+    font-size: 18px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.boton:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+    font-size: 26px;
+}
+
+#puntuacion {
+    
+    font-size: 48px;
+    color: azure;
+    font-weight: 600;
+   
+}
+.material-symbols-outlined {
+    position:absolute;
+    top: -20px;
+    right:40%;
+    color: #ffffff;
+    font-size: 50px !important;
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,
+  
+}
+.contenedorPuntuacion {
+    position:relative
+}
+
+#contador {
+    font-size: 24px;
+    
+}

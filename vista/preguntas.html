@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Preguntas</title>
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Outfit:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="nombreContenedor">
+                <h1 id="nombreUsuario"></h1>
+                <div id="contador"></div>
+            </div>
+            <div class="contenedorTitulos">
+                <h1 id="tituloPregunta"></h1>
+                <p id="enunciado"></p>
+            </div>
+            <div class="contenedorCronometro"></div>
+        </header>
+        <main>
+            <form action="" class="formulario">
+                <div class="respuestas">
+                    <input type="radio" id="pregunta1" name="respuesta" />
+                    <label for="pregunta1" id="respuesta1"></label>
+
+                    <input type="radio" id="pregunta2" name="respuesta" />
+                    <label for="pregunta2" id="respuesta2"></label>
+
+                    <input type="radio" id="pregunta3" name="respuesta" />
+                    <label for="pregunta3" id="respuesta3"></label>
+                </div>
+
+                <input
+                    class="boton botonPregunta"
+                    type="button"
+                    value="Confirmar"
+                    onclick="validarPregunta()"
+                />
+            </form>
+        </main>
+        <script src="../js/index.js"></script>
+    </body>
+</html>
